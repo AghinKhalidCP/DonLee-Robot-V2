@@ -27,4 +27,4 @@ class User(Client):
 
     async def stop(self, *args):
         await super().stop()
-        self.LOGGER(__name__).info("നിർത്തി പോയിരിക്കുന്നു ഗുയ്സ്‌ ")
+        self.LOGGER(__name__).info("നിർത്തി പോയിരിക്കുന്നു ഗുയ്സ്")
